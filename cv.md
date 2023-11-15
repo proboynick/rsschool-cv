@@ -27,8 +27,79 @@ I want to be a full-stack developer and create new demanded applications. For no
 
 - Git, GitHub
 - Java Basics
-- HTML5, CSS3 Basics
-- JavaScript Basics
+- HTML5, CSS3
+- JavaScript, TypeScript
+- React, RTK
 - VS Code, IntelliJ IDEA
+
+---
+
+### Code examples
+
+**JavaScript:**
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
+**Java:**
+
+```
+class Apple {
+
+    private String color;
+    private int weight;
+
+    public Apple (String color, int weight) {
+        this.color = color;
+        this.weight = weight;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Apple apple = (Apple) o;
+        return weight == apple.weight && Objects.equals(color, apple.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(color, weight);
+    }
+}
+```
+
+---
+
+### Experience
+
+- [Rock-Paper-Scissors game (Java)](https://github.com/proboynick/rockpaperscisors.git) - Simple game project, which shows my OOP-skills and work with HMAC-SHA256 hashing.
+- [Game of Life simulator (Java)](https://github.com/proboynick/GameOfLife.git) - Simple Game of Life simulator project, which shows my OOP-skills in Java.
+- [GildedRose (Java)](https://github.com/proboynick/GildedRose.git) - My GildedRose demo project, which shows my refactoring skills in Java.
+
+### Education
+
+- **High education:** BSUIR, department of metrology (master)
+- **Courses:**
+  - [JavaGuru (Java Basics)](https://javaguru.lv/)
+  - [HTML5/CSS3 Basics](https://ru.code-basics.com/languages/html)
+- **Selfeducation:** Git
+
+### Languages
+
+- **Russian** - native speaker
+- **English** - pre-intermediate (I'm improving my skill at the moment)
+- **Italian** - pre-intermediate
 
 ---
