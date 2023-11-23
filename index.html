@@ -168,10 +168,10 @@
           <h2 class="section-title">Code</h2>
           <pre class="pre">
                 <code>
-const generateRandomNames = (): string[] => {
+const generateRandomNames = (): string[] =&gt; {
     const names = [];
     const massiveLength = 100;
-    for (let i = 0; i < massiveLength; i++) {
+    for (let i = 0; i &lt; massiveLength; i++) {
       names.push(
         NAMES[Math.floor(Math.random() * NAMES.length)] +
           " " +
